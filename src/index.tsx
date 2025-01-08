@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/uniscore">
+    <BrowserRouter basename="/football_game_">
       <App />
     </BrowserRouter>
   </React.StrictMode>
