@@ -1,7 +1,7 @@
 {
   "name": "football_game",
   "version": "0.1.0",
-  "homepage": "https://leminhthanh29.github.io/uniscore/",
+  "homepage": "https://leminhthanh29.github.io/football_game_/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
