@@ -1,0 +1,38 @@
+.transfer_data_table {
+  width: 100%;
+  tbody {
+    .transfer_data_table_tr {
+      .transfer_data_table_td {
+        padding: 4px 0px;
+        box-sizing: border-box;
+        .transfer_data_table_td_left {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          img {
+            width: 100%;
+            max-width: 36px;
+          }
+          .transfer_data_table_td_left_content {
+            p {
+              font-size: 0.8125rem;
+            }
+            span {
+              font-size: 0.6875rem;
+              color: #8d8e92;
+            }
+          }
+        }
+      }
+      .transfer_data_table_td_infomation {
+        .transfer_data_table_td_right {
+          color: #48ff5a;
+          text-align: end;
+          p {
+            font-size: 0.6875rem;
+          }
+        }
+      }
+    }
+  }
+}

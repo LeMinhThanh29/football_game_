@@ -1,0 +1,13 @@
+.main_container {
+  background-color: #01040d;
+  color: white;
+  padding-bottom: 30px;
+  section {
+    max-width: 1376px;
+    background-color: #020c20;
+    margin: auto;
+    &:not(:last-of-type) {
+      margin-bottom: 24px;
+    }
+  }
+}

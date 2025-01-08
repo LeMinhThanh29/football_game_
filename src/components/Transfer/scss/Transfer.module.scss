@@ -1,0 +1,28 @@
+.transfer_container {
+  .transfer_row {
+    display: flex;
+    .transfer_left {
+      flex: 1;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+    .transfer_right {
+      flex: 1;
+      padding: 16px;
+      box-sizing: border-box;
+      height: 400px;
+      overflow: auto;
+      &::-webkit-scrollbar {
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .transfer_container {
+    .transfer_row {
+     flex-direction: column;
+    }
+  }
+}

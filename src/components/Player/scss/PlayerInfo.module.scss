@@ -1,0 +1,174 @@
+.player_info_container {
+  box-sizing: border-box;
+  .player_info_row {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    .player_info_left {
+      flex: 1;
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 12px 16px;
+      box-sizing: border-box;
+      .player_info_left_star {
+        width: 100%;
+        max-width: 24px;
+      }
+      .player_info_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 10px 0px;
+        box-sizing: border-box;
+        align-self: center;
+        .player_info_content_info {
+          h1 {
+            font-size: 2rem;
+            font-family: "Oswald", serif;
+            text-wrap: nowrap;
+          }
+          .player_info_content_info_club {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            img {
+              width: 100%;
+              max-width: 40px;
+            }
+            .player_info_content_info_club_details {
+              p {
+                font-size: 1rem;
+                font-weight: 600;
+              }
+              span {
+                font-size: 11px;
+                color: #8d8e92;
+              }
+            }
+          }
+        }
+        .player_info_content_image {
+          background-color: white;
+          border-radius: 50%;
+          width: 100%;
+          max-width: 90px;
+          height: 90px;
+          padding: 4px;
+          overflow: hidden;
+          box-sizing: border-box;
+        }
+      }
+    }
+    .player_info_right {
+      width: 100%;
+      max-width: 688px;
+      flex: 1;
+      .player_info_right_table {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        li {
+          min-height: 68px;
+          box-sizing: border-box;
+          border: 1px solid #171b2e;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0px 16px;
+
+          .player_info_right_table_title {
+            font-size: 11px;
+            color: #8d8e92;
+          }
+
+          .player_info_right_table_items {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 2px;
+
+            p {
+              font-size: 13px;
+              font-weight: 800;
+              text-transform: uppercase;
+            }
+          }
+          &:not(:nth-of-type(1)) {
+            .player_info_right_table_items {
+              span {
+                font-size: 11px;
+                color: #8d8e92;
+              }
+              p {
+                font-weight: 600;
+                text-transform: unset;
+              }
+            }
+          }
+          &:nth-of-type(2) {
+            .player_info_right_table_items {
+              align-items: flex-start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .player_info_container {
+    .player_info_row {
+      flex-direction: column;
+      .player_info_left {
+        .player_info_left_star {
+        }
+        .player_info_content {
+          .player_info_content_info {
+            h1 {
+            }
+            .player_info_content_info_club {
+              img {
+              }
+              .player_info_content_info_club_details {
+                p {
+                }
+                span {
+                }
+              }
+            }
+          }
+          .player_info_content_image {
+          }
+        }
+      }
+      .player_info_right {
+        .player_info_right_table {
+          li {
+            .player_info_right_table_title {
+            }
+
+            .player_info_right_table_items {
+              p {
+              }
+            }
+            &:not(:nth-of-type(1)) {
+              .player_info_right_table_items {
+                span {
+                }
+                p {
+                }
+              }
+            }
+            &:nth-of-type(2) {
+              .player_info_right_table_items {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

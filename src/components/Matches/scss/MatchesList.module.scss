@@ -1,0 +1,116 @@
+.matches_list_container {
+  padding: 16px;
+  box-sizing: border-box;
+  h1 {
+    font-size: 1rem;
+  }
+  .matches_list_container_table {
+    width: 100%;
+    border-spacing: 0 10px;
+
+    .matches_list_container_table_body {
+      .matches_list_container_table_body_tr {
+        height: 66px;
+        background-image: linear-gradient(
+          to bottom right,
+          #061538 0%,
+          #07173e 40%,
+          #051131 100%
+        );
+        td {
+          box-sizing: border-box;
+          &:first-of-type {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            padding: 10px;
+          }
+          &:last-of-type {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            padding: 10px;
+          }
+        }
+        .matches_list_td_time {
+          width: 8px;
+          text-align: center;
+          font-size: 0.8125rem;
+          color: #8d8e92;
+        }
+        .matches_list_td_team {
+          div {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            p {
+              font-size: 0.8125rem;
+            }
+            &:nth-of-type(2) {
+              margin-top: 5px;
+            }
+            .home {
+              color: #8d8e92;
+              &.winner {
+                color: white;
+              }
+            }
+            img {
+              max-width: 20px;
+              border-radius: 50%;
+            }
+          }
+        }
+        .matches_list_td_result {
+          width: 52px;
+          .matches_list_td_result_ratio {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .matches_list_td_result_ratio_result {
+              font-size: 0.6875rem;
+            }
+            .matches_list_td_result_ratio_item {
+              text-align: center;
+              background: linear-gradient(
+                to bottom right,
+                #00289f 0%,
+                #001f7b 40%,
+                #091557 100%
+              );
+              &:nth-of-type(1){
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+              }
+              &:nth-of-type(2){
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+              }
+              padding: 6px 8px;
+              &.winner {
+                background: #2187e5;
+              }
+            }
+            .matches_list_td_result_rating {
+              .player_inMatch {
+                p {
+                  font-family: "Oswald", serif;
+                  font-weight: 600;
+                  font-size: 0.875rem;
+                  &.good {
+                    padding: 5px;
+                    background-color: #2ea76f;
+                    border-radius: 2px;
+                  }
+                  &.middling {
+                    padding: 5px;
+                    background-color: #da6900;
+                    border-radius: 2px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
