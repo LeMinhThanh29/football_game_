@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uniscore/static/css/main.cb3441be.css",
-    "main.js": "/uniscore/static/js/main.ba218ccd.js",
+    "main.js": "/uniscore/static/js/main.c5646d7d.js",
     "static/js/453.ba79d8b3.chunk.js": "/uniscore/static/js/453.ba79d8b3.chunk.js",
     "static/media/Spain.svg": "/uniscore/static/media/Spain.d64cac755e0ae5db459ea8d5af909f96.svg",
     "static/media/Football-icon.svg": "/uniscore/static/media/Football-icon.8b7ba93cf7c58b20c5190a6b0041bdd6.svg",
@@ -13,11 +13,11 @@
     "static/media/tuổi.svg": "/uniscore/static/media/tuổi.9946be9d252ec0f8d62c487032b36c03.svg",
     "index.html": "/uniscore/index.html",
     "main.cb3441be.css.map": "/uniscore/static/css/main.cb3441be.css.map",
-    "main.ba218ccd.js.map": "/uniscore/static/js/main.ba218ccd.js.map",
+    "main.c5646d7d.js.map": "/uniscore/static/js/main.c5646d7d.js.map",
     "453.ba79d8b3.chunk.js.map": "/uniscore/static/js/453.ba79d8b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3441be.css",
-    "static/js/main.ba218ccd.js"
+    "static/js/main.c5646d7d.js"
   ]
 }
