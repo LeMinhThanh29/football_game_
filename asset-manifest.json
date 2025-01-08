@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/football_game_/static/css/main.cb3441be.css",
-    "main.js": "/football_game_/static/js/main.d036a776.js",
+    "main.js": "/football_game_/static/js/main.01506a44.js",
     "static/js/453.ba79d8b3.chunk.js": "/football_game_/static/js/453.ba79d8b3.chunk.js",
     "static/media/Spain.svg": "/football_game_/static/media/Spain.d64cac755e0ae5db459ea8d5af909f96.svg",
     "static/media/Football-icon.svg": "/football_game_/static/media/Football-icon.8b7ba93cf7c58b20c5190a6b0041bdd6.svg",
@@ -13,11 +13,11 @@
     "static/media/tuổi.svg": "/football_game_/static/media/tuổi.9946be9d252ec0f8d62c487032b36c03.svg",
     "index.html": "/football_game_/index.html",
     "main.cb3441be.css.map": "/football_game_/static/css/main.cb3441be.css.map",
-    "main.d036a776.js.map": "/football_game_/static/js/main.d036a776.js.map",
+    "main.01506a44.js.map": "/football_game_/static/js/main.01506a44.js.map",
     "453.ba79d8b3.chunk.js.map": "/football_game_/static/js/453.ba79d8b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3441be.css",
-    "static/js/main.d036a776.js"
+    "static/js/main.01506a44.js"
   ]
 }
