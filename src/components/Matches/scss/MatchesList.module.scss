@@ -70,17 +70,17 @@
             }
             .matches_list_td_result_ratio_item {
               text-align: center;
-              background: linear-gradient(
-                to bottom right,
-                #00289f 0%,
-                #001f7b 40%,
-                #091557 100%
+              background-image: linear-gradient(
+                124.54deg,
+                rgba(10, 31, 85, 0.4),
+                rgba(16, 44, 115, 0.4) 27.66%,
+                rgba(12, 26, 76, 0.4) 70.02%
               );
-              &:nth-of-type(1){
+              &:nth-of-type(1) {
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
               }
-              &:nth-of-type(2){
+              &:nth-of-type(2) {
                 border-bottom-left-radius: 5px;
                 border-bottom-right-radius: 5px;
               }
