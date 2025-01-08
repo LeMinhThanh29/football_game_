@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/football_game_/static/css/main.cb3441be.css",
-    "main.js": "/football_game_/static/js/main.01506a44.js",
-    "static/js/453.ba79d8b3.chunk.js": "/football_game_/static/js/453.ba79d8b3.chunk.js",
-    "static/media/Spain.svg": "/football_game_/static/media/Spain.d64cac755e0ae5db459ea8d5af909f96.svg",
-    "static/media/Football-icon.svg": "/football_game_/static/media/Football-icon.8b7ba93cf7c58b20c5190a6b0041bdd6.svg",
-    "static/media/Atletico Madrid.svg": "/football_game_/static/media/Atletico Madrid.69c14a8e2f94b41e3c62a88fb695a289.svg",
-    "static/media/Height.svg": "/football_game_/static/media/Height.f57ba92706625f6b9b0e8a9fd0a8ac23.svg",
-    "static/media/Football.svg": "/football_game_/static/media/Football.cdf3bf2b76f7bda185678b3f952d69ce.svg",
-    "static/media/Jersey.svg": "/football_game_/static/media/Jersey.6ac5c430b6852ca152520185a37d0c4b.svg",
-    "static/media/Foot.svg": "/football_game_/static/media/Foot.c6998ceb75baadb5e51c5ad207eb5f88.svg",
-    "static/media/tuổi.svg": "/football_game_/static/media/tuổi.9946be9d252ec0f8d62c487032b36c03.svg",
-    "index.html": "/football_game_/index.html",
-    "main.cb3441be.css.map": "/football_game_/static/css/main.cb3441be.css.map",
-    "main.01506a44.js.map": "/football_game_/static/js/main.01506a44.js.map",
-    "453.ba79d8b3.chunk.js.map": "/football_game_/static/js/453.ba79d8b3.chunk.js.map"
+    "main.css": "/uniscore/static/css/main.cb3441be.css",
+    "main.js": "/uniscore/static/js/main.ba218ccd.js",
+    "static/js/453.ba79d8b3.chunk.js": "/uniscore/static/js/453.ba79d8b3.chunk.js",
+    "static/media/Spain.svg": "/uniscore/static/media/Spain.d64cac755e0ae5db459ea8d5af909f96.svg",
+    "static/media/Football-icon.svg": "/uniscore/static/media/Football-icon.8b7ba93cf7c58b20c5190a6b0041bdd6.svg",
+    "static/media/Atletico Madrid.svg": "/uniscore/static/media/Atletico Madrid.69c14a8e2f94b41e3c62a88fb695a289.svg",
+    "static/media/Height.svg": "/uniscore/static/media/Height.f57ba92706625f6b9b0e8a9fd0a8ac23.svg",
+    "static/media/Football.svg": "/uniscore/static/media/Football.cdf3bf2b76f7bda185678b3f952d69ce.svg",
+    "static/media/Jersey.svg": "/uniscore/static/media/Jersey.6ac5c430b6852ca152520185a37d0c4b.svg",
+    "static/media/Foot.svg": "/uniscore/static/media/Foot.c6998ceb75baadb5e51c5ad207eb5f88.svg",
+    "static/media/tuổi.svg": "/uniscore/static/media/tuổi.9946be9d252ec0f8d62c487032b36c03.svg",
+    "index.html": "/uniscore/index.html",
+    "main.cb3441be.css.map": "/uniscore/static/css/main.cb3441be.css.map",
+    "main.ba218ccd.js.map": "/uniscore/static/js/main.ba218ccd.js.map",
+    "453.ba79d8b3.chunk.js.map": "/uniscore/static/js/453.ba79d8b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3441be.css",
-    "static/js/main.01506a44.js"
+    "static/js/main.ba218ccd.js"
   ]
 }
