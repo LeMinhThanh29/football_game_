@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/football_game_/static/css/main.cb3441be.css",
+    "main.css": "/football_game_/static/css/main.0fc0c4cc.css",
     "main.js": "/football_game_/static/js/main.e4290124.js",
     "static/js/453.ba79d8b3.chunk.js": "/football_game_/static/js/453.ba79d8b3.chunk.js",
     "static/media/Spain.svg": "/football_game_/static/media/Spain.d64cac755e0ae5db459ea8d5af909f96.svg",
@@ -10,14 +10,14 @@
     "static/media/Football.svg": "/football_game_/static/media/Football.cdf3bf2b76f7bda185678b3f952d69ce.svg",
     "static/media/Jersey.svg": "/football_game_/static/media/Jersey.6ac5c430b6852ca152520185a37d0c4b.svg",
     "static/media/Foot.svg": "/football_game_/static/media/Foot.c6998ceb75baadb5e51c5ad207eb5f88.svg",
-    "static/media/tuổi.svg": "/football_game_/static/media/tuổi.9946be9d252ec0f8d62c487032b36c03.svg",
     "index.html": "/football_game_/index.html",
-    "main.cb3441be.css.map": "/football_game_/static/css/main.cb3441be.css.map",
+    "static/media/tuổi.svg": "/football_game_/static/media/tuổi.9946be9d252ec0f8d62c487032b36c03.svg",
+    "main.0fc0c4cc.css.map": "/football_game_/static/css/main.0fc0c4cc.css.map",
     "main.e4290124.js.map": "/football_game_/static/js/main.e4290124.js.map",
     "453.ba79d8b3.chunk.js.map": "/football_game_/static/js/453.ba79d8b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb3441be.css",
+    "static/css/main.0fc0c4cc.css",
     "static/js/main.e4290124.js"
   ]
 }
