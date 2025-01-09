@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
-const Game = () => {
+const GameLayout = () => {
   return (
     <div>
       <Outlet />
@@ -9,4 +9,4 @@ const Game = () => {
   );
 };
 
-export default Game;
+export default GameLayout;

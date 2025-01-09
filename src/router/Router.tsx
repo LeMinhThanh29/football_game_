@@ -1,8 +1,9 @@
 import { ReactNode } from "react";
 import Home from "../page/Home/Home";
-import Game from "../layout/Game/Game";
+import Game from "../page/Game/Game";
 import { Outlet } from "react-router-dom";
 import Defaultlayout from "../layout/Default/Defaultlayout";
+import GameLayout from "../layout/Game/GameLayout";
 type TypeLayout = { type: "DEFAULT" } | { type: "GAME" } | undefined;
 export interface Router {
   name: string;
@@ -31,7 +32,7 @@ export const Layout = ({ type }: { type?: TypeLayout }) => {
     case "DEFAULT":
       return <Defaultlayout />;
     case "GAME":
-      return <Game />;
+      return <GameLayout />;
 
     default:
       return (

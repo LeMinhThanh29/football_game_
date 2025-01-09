@@ -2,6 +2,7 @@ import React from "react";
 import { Icon_Football, logo, user } from "../../assets/icons";
 import classNames from "classnames/bind";
 import styles from "./scss/Navigation.module.scss";
+import { Link } from "react-router-dom";
 const cx = classNames.bind(styles);
 const Navigation = () => {
   return (
@@ -11,10 +12,10 @@ const Navigation = () => {
           <img src={logo} alt="" />
         </li>
         <li>
-          <div className={cx("navigation_footbal_button")}>
+          <Link to="/game" className={cx("navigation_footbal_button")}>
             <img src={Icon_Football} alt="" />
             <p>Football</p>
-          </div>
+          </Link>
         </li>
         <li>
           <div className={cx("navigation_user_button")}>

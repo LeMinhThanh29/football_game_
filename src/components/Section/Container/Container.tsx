@@ -1,5 +1,4 @@
 import React from "react";
-import TransferChart from "../../Chart/TransferChart";
 import styles from "./scss/Container.module.scss";
 import classNames from "classnames/bind";
 import Transfer from "../../Transfer/Transfer";

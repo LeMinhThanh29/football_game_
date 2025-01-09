@@ -66,7 +66,7 @@ const MatchesList = (props: Matches_Event_Model) => {
   const player_inMatch = useMemo(
     () => (value_matches: Event_Model) => {
       const data = playerStatistics_data.find(
-        (value_find) => value_find.eventId == value_matches.id
+        (value_find) => value_find.eventId === value_matches.id
       );
 
       if (data === undefined) {

@@ -1,7 +1,4 @@
 import React from "react";
-
-import Hightlight from "../../components/Section/Container/Container";
-import Body from "../../components/Section/Matches/Matches";
 import Info from "../../components/Section/Info/Info";
 import Container from "../../components/Section/Container/Container";
 import Matches from "../../components/Section/Matches/Matches";

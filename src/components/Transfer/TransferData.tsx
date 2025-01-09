@@ -12,7 +12,7 @@ const TransferData = (props: LIST_TransferData) => {
       <tbody>
         {data.map((value_club_transfer, index) => (
           <tr className={cx("transfer_data_table_tr")} key={index}>
-            <td scope="row" className={cx("transfer_data_table_td")}>
+            <td className={cx("transfer_data_table_td")}>
               <div className={cx("transfer_data_table_td_left")}>
                 <img src={value_club_transfer.club_logo} alt="" />
                 <div className={cx("transfer_data_table_td_left_content")}>

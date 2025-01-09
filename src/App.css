@@ -5,7 +5,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "Be Vietnam Pro", serif;
-    
+
 }
 
 ul {
@@ -14,4 +14,9 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.App {
+    background-color: #01040d;
+    
 }
